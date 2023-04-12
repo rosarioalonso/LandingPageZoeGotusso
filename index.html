@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoe Gotusso - Meet and Greet</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+
+        <div class="contenedorFlex">
+            <div class="logo">
+                <img src="img/zoe_logo.png" alt="Logo">
+            </div>
+            <div class="evento">
+                <h1>MEET AND GREET</h1>
+            </div>
+        </div>
+        
+    </header>
+
+    <section id="invitacion">
+
+        <div class="cajacontenedora">
+            <div class="presentacion">
+                <div class="texto">
+                    <p>Hola, cómo estas? soy Zoe y te invito de este sorteo para ganar la posibilidad de disfrutar un momento de amor y música juntos antes del show. Nos vamos a conocer y compartir charlas y canciones íntimas para hacer de esta fecha mucho más especial.</p>
+                </div>
+                <div class="boton_secundario">
+                    <a href="#datos"><input class="comprar1" type="submit" value="PARTICIPAR"></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="cajacontenedora">
+            <div class="zoe_circulo">
+                <img src="img/zoe_ganas_tour.png" alt="ZoeGotusso">
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="actividades">
+
+        <div class="cajacontenedora2">
+           <div class="informacion">
+                <div class="icono">
+                    <img src="img/microfono.png" alt="Microfono">
+                </div>
+                <div class="info">
+                    <p>Vamos a cantar juntos y aprender sobre el proceso de creación artística de la música.</p>
+                </div>
+            </div>
+            <div class="informacion">
+                <div class="icono">
+                    <img src="img/corazon.png" alt="Microfono">
+                </div>
+                <div class="info">
+                    <p>Armamos un espacio de charla sobre el álbum y los sentimientos que genera.</p>
+                </div>
+            </div>
+            <div class="informacion">
+                <div class="icono">
+                    <img src="img/camara.png" alt="Microfono">
+                </div>
+                <div class="info">
+                    <p>Nos vamos a sacar fotos artísticas y vamos a jugar con la escenografía del escenario.</p>
+                </div>
+            </div> 
+        </div>
+        
+    </section>
+
+
+    <section id="datos">
+
+        <div class="cajacontenedora3">
+            <div class="pregunta">
+                <h2>¿Qué estas esperando para participar del sorteo?</h2>
+            </div>
+            <div class="formulario">
+                <form action="respuesta.html" method="get">
+                    <div>
+                        <label>
+                            <p class="textlabel">Nombre</p>
+                            <input type="text" name="nombre" required>
+                        </label> 
+                    </div>
+                    <div>
+                        <label>
+                            <p>Apellido</p>
+                            <input type="text" name="apellido" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <p>Telefono</p>
+                            <input type="tel" name="telefono" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <p>Email</p>
+                            <input type="email" name="email" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <p>Fecha a la que vas a asistir</p>
+                            <input class="fecha" type="date" name="fecha" required>
+                        </label>
+                    </div>
+                    <div>
+                        <input class="comprar" type="submit" value="PARTICIPAR">
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+    </section>
+
+    <footer>
+        <div class="logofooter">
+            <img src="img/zoe_logo.png" alt="ZoeGotusso">
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@400;500;600&display=swap');
+
+html {font-family: 'Spectral'; background-color: #F8E1C2;box-sizing: border-box;}
+body {margin: 0;}
+a {text-decoration: none; color: black;}
+
+header {background-image: url(img/fondo_landing.png); background-position: center; background-repeat: no-repeat; background-size: cover;
+    min-height: 13vh; align-items: center; display: flex;}
+
+.contenedorFlex {text-align: center; width: 100%;}
+
+.logo {text-align: center; margin-bottom: 50px; margin-top: 5%;}
+.logo img {width: 200px;}
+
+.evento {text-align: center; margin-bottom: 5%;}
+
+
+#invitacion {display: flex; min-height: 60vh; align-items: center;}
+.cajacontenedora {width: 50%; align-items: center; text-align: center;}
+
+.texto, .titulo, .boton_secundario {text-align: left; margin-left: 30%;}
+.texto {font-size: 20px;}
+.comprar1 {width: 35%; padding: 5px; font-family: "Spectral"; font-size: 20px; background-color: #B9AC66; border: black; margin-top: 2%;}
+.comprar1:hover {background-color: #8d834d;}
+
+.zoe_circulo img {width: 300px;}
+
+.cajacontenedora2 {display: flex; align-items: center;}
+.informacion {text-align: center; margin: 5%;}
+.icono img {width: 50px;}
+
+#datos {min-height: 40vh;}
+.cajacontenedora3 {margin-top: 3%; margin-bottom: 5%;}
+.pregunta {text-align: center; margin: 1%; margin-bottom: 3%}
+.formulario {text-align: center; width: 50%; margin: auto;}
+form div { margin: 2%;}
+span {text-align: left;}
+input {width: 80%; border: solid 1px #AC5C39; background-color: #FAEAD4; border-radius: 10px; padding: 5px;}
+.fecha {width: 30%; display: block; margin-left: 9%; padding: 5px;}
+.comprar {width: 40%; padding: 5px; font-family: "Spectral"; font-size: 20px; background-color: #B9AC66; border: black; margin-top: 4%;}
+.comprar:hover {background-color: #8d834d;}
+#datos p {font-weight: 600; text-align: left; margin-left: 12%; margin-bottom: 1%;}
+
+footer {background-image: url(img/fondo_footer.png); background-position: center; background-repeat: no-repeat; background-size: cover;}
+.logofooter {text-align: center; align-items: center;} 
+.logofooter img {width: 100px; margin: 20px;}
+
+
+#agradecimiento h1 {margin-top: 5%;}
+#agradecimiento h1 p {text-align: center;}
+.respuesta {min-height: 100vh;}
+.footer-respuesta {width: 100%; background-image: url(img/fondo_footer.png); background-position: center; background-repeat: no-repeat; background-size: cover; position:fixed; left:0px; bottom:0px;}
+
+@media (max-width: 768px)
+{
+    .logo img {width: 130px;}
+    header {max-width: 100%;}
+    .evento {margin-top: 0%;}
+    #invitacion {min-width: 100%; display: block; margin-top: 30px;}
+    .cajacontenedora {width: 100%; display: block; text-align: center;}
+    .texto, .titulo {text-align: left; margin: auto; padding: 7%;}
+    .boton_secundario {margin-top: 0; text-align: left;}
+    .comprar1 {width: 60%; padding: 5px; font-family: "Spectral";}
+    .zoe_circulo {text-align: center;}
+    .zoe_circulo img {width: 250px; margin-top: 100px; text-align: center;}
+    #actividades {display: flex; margin-top: 80px;}
+    .cajacontenedora2 {display: block; text-align: center;}
+    .informacion {width: 80%; margin: auto; margin-top: 30px; margin-bottom: 50px;}
+    .info {width: 80%; margin: auto;}
+    #datos {margin-top: 80px; margin-bottom: 80px;}
+    .pregunta {padding-left: 10px; padding-right: 10px;}
+    .formulario {margin-top: 30px; width: 100%;}
+    .comprar {margin-top: 10%;}
+}
