@@ -45,9 +45,11 @@ footer {background-image: url(img/fondo_footer.png); background-position: center
 .logofooter {text-align: center; align-items: center;} 
 .logofooter img {width: 100px; margin: 20px;}
 
+#agradecimiento h1 {text-align: center; margin-left: 10%; margin-right: 10%;}
+#agradecimiento p {text-align: center; margin-left: 10%; margin-right: 10%;}
+.mensajeRespuesta {margin-top: 5%;}
 
-#agradecimiento h1 {margin-top: 5%;}
-#agradecimiento h1 p {text-align: center;}
+
 .respuesta {min-height: 100vh;}
 .footer-respuesta {width: 100%; background-image: url(img/fondo_footer.png); background-position: center; background-repeat: no-repeat; background-size: cover; position:fixed; left:0px; bottom:0px;}
 
@@ -71,4 +73,5 @@ footer {background-image: url(img/fondo_footer.png); background-position: center
     .pregunta {padding-left: 10px; padding-right: 10px;}
     .formulario {margin-top: 30px; width: 100%;}
     .comprar {margin-top: 10%;}
+    .mensajeRespuesta {margin-top: 50%;}
 }
