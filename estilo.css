@@ -47,7 +47,7 @@ footer {background-image: url(img/fondo_footer.png); background-position: center
 
 #agradecimiento h1 {text-align: center; margin-left: 10%; margin-right: 10%;}
 #agradecimiento p {text-align: center; margin-left: 10%; margin-right: 10%;}
-.mensajeRespuesta {margin-top: 5%;}
+.mensajeRespuesta {margin-top: 5%; }
 
 
 .respuesta {min-height: 100vh;}
